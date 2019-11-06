@@ -17,7 +17,7 @@ resolvers ++= Seq(
   "apache-snapshots" at "http://central.maven.org/maven2/"
 )
 
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.2"
-libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.2"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.4"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.4"
 
-libraryDependencies += "io.delta" %% "delta-core" % "0.1.0"
+libraryDependencies += "io.delta" %% "delta-core" % "0.4.0"
